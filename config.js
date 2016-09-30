@@ -22,7 +22,7 @@ module.exports = {
         "no-control-regex": "error",
         "no-debugger": "error",
         "no-delete-var": "error",
-        "no-div-regex": "error",
+        "no-div-regex": "off",
         "no-dupe-args": "error",
         "no-dupe-class-members": "error",
         "no-dupe-keys": "error",
@@ -82,12 +82,7 @@ module.exports = {
         "no-octal-escape": "error",
         "no-param-reassign": "off",
         "no-path-concat": "error",
-        "no-plusplus": [
-            "error",
-            {
-                "allowForLoopAfterthoughts": true
-            }
-        ],
+        "no-plusplus": "off",
         "no-process-env": "off",
         "no-process-exit": "error",
         "no-proto": "error",
