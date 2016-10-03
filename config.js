@@ -122,7 +122,10 @@ module.exports = {
         "no-unsafe-negation": "error",
         "no-unused-expressions": "error",
         "no-unused-labels": "error",
-        "no-unused-vars": "error",
+        "no-unused-vars": [
+            "error",
+            { "args": "none" }
+        ],
         "no-use-before-define": [
             "error",
             { "classes": false }
