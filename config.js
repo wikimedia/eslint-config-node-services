@@ -206,7 +206,7 @@ module.exports = {
         "eol-last": "error",
         "eqeqeq": "error",
         "func-call-spacing": "error",
-        "func-names": "error",
+        "func-names": "off",
         "func-style": [
             "error",
             "declaration",
@@ -288,7 +288,7 @@ module.exports = {
         "prefer-const": "error",
         "prefer-numeric-literals": "error",
         "prefer-reflect": "off",
-        "prefer-rest-params": "error",
+        "prefer-rest-params": "off",
         "prefer-spread": "off",
         "prefer-template": "error",
         "quote-props": "off",
