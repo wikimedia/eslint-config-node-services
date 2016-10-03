@@ -18,7 +18,7 @@ module.exports = {
         "no-console": "error",
         "no-const-assign": "error",
         "no-constant-condition": "error",
-        "no-continue": "error",
+        "no-continue": "off",
         "no-control-regex": "error",
         "no-debugger": "error",
         "no-delete-var": "error",
@@ -84,7 +84,7 @@ module.exports = {
         "no-path-concat": "error",
         "no-plusplus": "off",
         "no-process-env": "off",
-        "no-process-exit": "error",
+        "no-process-exit": "off",
         "no-proto": "error",
         "no-prototype-builtins": "error",
         "no-redeclare": "error",
@@ -123,7 +123,10 @@ module.exports = {
         "no-unused-expressions": "error",
         "no-unused-labels": "error",
         "no-unused-vars": "error",
-        "no-use-before-define": "error",
+        "no-use-before-define": [
+            "error",
+            { "classes": false }
+        ],
         "no-useless-call": "error",
         "no-useless-computed-key": "error",
         "no-useless-concat": "error",
@@ -233,7 +236,7 @@ module.exports = {
         "line-comment-position": "off",
         "lines-around-comment": "off",
         "lines-around-directive": "error",
-        "max-depth": "error",
+        "max-depth": "off",
         "max-len": [
             "error",
             {
