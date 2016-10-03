@@ -104,7 +104,7 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "no-spaced-func": "error",
         "no-sparse-arrays": "error",
-        "no-sync": "error",
+        "no-sync": "off",
         "no-tabs": "error",
         "no-ternary": "off",
         "no-trailing-spaces": "error",
@@ -177,7 +177,7 @@ module.exports = {
             "error",
             "last"
         ],
-        "complexity": "error",
+        "complexity": "off",
         "computed-property-spacing": [
             "error",
             "never"
@@ -237,7 +237,8 @@ module.exports = {
         "max-len": [
             "error",
             {
-                "code": 100
+                "code": 100,
+                "ignoreUrls": true
             }
         ],
         "max-lines": "off",
