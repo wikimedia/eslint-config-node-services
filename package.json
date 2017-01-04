@@ -4,7 +4,7 @@
   "description": "ESLint configuration for Wikimedia node.js services",
   "main": "config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint -c config.js ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wikimedia/eslint-config-node-services/issues"
   },
-  "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme"
+  "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme",
+  "devDependencies": {
+    "eslint": "3.12.2"
+  }
 }
