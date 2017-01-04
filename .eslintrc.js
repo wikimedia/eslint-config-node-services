@@ -5,6 +5,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
+    "plugins": ["json"],
     "rules": {
         "no-alert": "error",
         "no-array-constructor": "error",
