@@ -295,7 +295,7 @@ module.exports = {
         "quotes": "off",
         "radix": [
             "error",
-            "as-needed"
+            "always"
         ],
         "require-jsdoc": "off",
         "require-yield": "error",
