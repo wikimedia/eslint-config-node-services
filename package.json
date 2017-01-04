@@ -2,8 +2,11 @@
   "name": "eslint-config-node-services",
   "version": "1.0.6",
   "description": "ESLint configuration for Wikimedia node.js services",
+  "bin": {
+    "node-services-lint": "bin/node-services-lint"
+  },
   "scripts": {
-    "test": "eslint --ext .js --ext .json ."
+    "test": "bin/node-services-lint ."
   },
   "repository": {
     "type": "git",
