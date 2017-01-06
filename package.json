@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme",
   "devDependencies": {
-    "eslint": "3.12.2"
+    "eslint": "^3.12.0"
   }
 }
