@@ -3,7 +3,9 @@
   "version": "1.0.6",
   "description": "ESLint configuration for Wikimedia node.js services",
   "scripts": {
-    "test": "eslint --ext .js --ext .json ."
+    "test": "eslint --ext .js --ext .json .",
+    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s test",
+    "postversion": "git push origin master --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
