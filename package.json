@@ -2,6 +2,7 @@
   "name": "eslint-config-node-services",
   "version": "2.0.0",
   "description": "ESLint configuration for Wikimedia node.js services",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "eslint --ext .js --ext .json .",
     "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s test",
