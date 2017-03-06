@@ -145,7 +145,9 @@ module.exports = {
         "array-callback-return": "error",
         "arrow-body-style": "off",
         "arrow-parens": [
-            "error"
+            "error",
+            "as-needed",
+            { "requireForBlockBody": true }
         ],
         "arrow-spacing": [
             "error",
