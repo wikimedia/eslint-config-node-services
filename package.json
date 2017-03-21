@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-node-services",
-  "version": "1.0.6",
+  "version": "2.0.2",
   "description": "ESLint configuration for Wikimedia node.js services",
+  "main": ".eslintrc.js",
   "scripts": {
-    "test": "eslint --ext .js --ext .json ."
+    "test": "eslint --ext .js --ext .json .",
+    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s test",
+    "postversion": "git push origin master --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "eslint": "^3.12.0",
     "eslint-plugin-jsdoc": "^2.4.0",
-    "eslint-plugin-json": "^1.2.0"
+    "eslint-plugin-json": "^1.2.0",
+    "pre-commit": "^1.2.2"
   }
 }
