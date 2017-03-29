@@ -8,5 +8,6 @@ Used by:
  - [restbase-mod-table-sqlite](https://github.com/wikimedia/restbase-mod-table-sqlite)
  - [HyperSwitch](https://github.com/wikimedia/hyperswitch)
  - [swagger-router](https://github.com/wikimedia/swagger-router)
+ - [service-template-node](https://github.com/wikimedia/service-template-node)
  
 Please test any proposed changes to the config against all thouse repos to avoid breaking the builds.
