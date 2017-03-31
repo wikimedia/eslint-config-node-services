@@ -5,7 +5,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "plugins": ["json"],
+    "plugins": ["jsdoc", "json"],
     "rules": {
         "no-alert": "error",
         "no-array-constructor": "error",
@@ -350,7 +350,15 @@ module.exports = {
         "yoda": [
             "error",
             "never"
-        ]
+        ],
+
+        // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules
+        "jsdoc/check-param-names": "warn",
+        "jsdoc/check-tag-names": "warn",
+        "jsdoc/check-types": "warn",
+        "jsdoc/newline-after-description": ["warn", "never"],
+        "jsdoc/require-param-type": "warn",
+        "jsdoc/require-returns-type": "warn"
     },
     "parserOptions": {
         "ecmaVersion": 6,
@@ -359,6 +367,34 @@ module.exports = {
         }
     },
     "ecmaFeatures": {},
-    "extends": "eslint:recommended"
+    "extends": "eslint:recommended",
+    "settings": {
+        // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
+        "jsdoc": {
+            // one synonym for each ambiguity listed: http://usejsdoc.org/#block-tags
+            "tagNamePreference": {
+                abstract: "virtual",
+                arg: "param",
+                argument: "param",
+                augments: "extends",
+                constructor: "class",
+                constant: "const",
+                defaultvalue: "default",
+                description: "desc",
+                host: "external",
+                fileoverview: "file",
+                overview: "file",
+                fires: "emits",
+                function: "func",
+                method: "func",
+                member: "var",
+                property: "prop",
+                returns: "return",
+                exception: "throws",
+                linkcode: "link",
+                linkplain: "link"
+            }
+        }
+    }
 };
 
