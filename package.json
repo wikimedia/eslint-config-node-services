@@ -1,12 +1,15 @@
 {
   "name": "eslint-config-node-services",
-  "version": "1.0.6",
+  "version": "2.1.1",
   "description": "ESLint configuration for Wikimedia node.js services",
   "bin": {
     "node-services-lint": "bin/node-services-lint"
   },
+  "main": ".eslintrc.js",
   "scripts": {
-    "test": "bin/node-services-lint ."
+    "test": "bin/node-services-lint .",
+    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s test",
+    "postversion": "git push origin master --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -24,10 +27,13 @@
   "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme",
   "peerDependencies": {
     "eslint": "^3.12.0",
+    "eslint-plugin-jsdoc": "^3.0.0",
     "eslint-plugin-json": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^3.12.0",
-    "eslint-plugin-json": "^1.2.0"
+    "eslint-plugin-jsdoc": "^3.0.0",
+    "eslint-plugin-json": "^1.2.0",
+    "pre-commit": "^1.2.2"
   }
 }
