@@ -24,11 +24,13 @@
   "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme",
   "peerDependencies": {
     "eslint": "^3.12.0",
+    "eslint-config-wikimedia": "^0.3.0",
     "eslint-plugin-jsdoc": "^3.0.0",
     "eslint-plugin-json": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^3.12.0",
+    "eslint-config-wikimedia": "^0.3.0",
     "eslint-plugin-jsdoc": "^3.0.0",
     "eslint-plugin-json": "^1.2.0",
     "pre-commit": "^1.2.2"
