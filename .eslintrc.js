@@ -10,7 +10,6 @@ module.exports = {
         "no-catch-shadow": "error",
         "no-confusing-arrow": "error",
         "no-duplicate-imports": "error",
-        "no-eq-null": "error",
         "no-extend-native": "error",
         "no-extra-bind": "error",
         "no-extra-label": "error",
