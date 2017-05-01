@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-node-services",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "ESLint configuration for Wikimedia node.js services",
   "main": ".eslintrc.js",
   "scripts": {
