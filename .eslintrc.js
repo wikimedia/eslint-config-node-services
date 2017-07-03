@@ -205,7 +205,6 @@ module.exports = {
             "globalReturn": true
         }
     },
-    "ecmaFeatures": {},
     "extends": "wikimedia",
     "settings": {
         // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
