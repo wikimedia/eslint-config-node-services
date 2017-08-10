@@ -161,6 +161,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "require-await": "error",
         "rest-spread-spacing": "error",
         "sort-imports": "error",
         "sort-vars": "error",
