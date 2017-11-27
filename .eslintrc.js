@@ -118,7 +118,14 @@ module.exports = {
         "generator-star-spacing": "error",
         "guard-for-in": "error",
         "handle-callback-err": "error",
-        "indent": [ "error", 4, { "SwitchCase": 1 } ],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "MemberExpression": "off"
+            }
+        ],
         "jsx-quotes": "error",
         "key-spacing": "off",
         "lines-around-directive": "error",
