@@ -162,8 +162,6 @@ module.exports = {
         "prefer-const": "error",
         "prefer-numeric-literals": "error",
         "prefer-template": "error",
-        "quote-props": "off",
-        "quotes": "off",
         "radix": [
             "error",
             "always"
