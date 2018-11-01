@@ -205,7 +205,7 @@ module.exports = {
         "jsdoc/require-returns-type": "warn"
     },
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 2017,
         "ecmaFeatures": {
             "globalReturn": true
         }
