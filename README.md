@@ -1,4 +1,7 @@
 # eslint-config-node-services
+
+**[DEPRECATED]** Use [eslint-config-wikimedia](https://github.com/wikimedia/eslint-config-wikimedia) with reasonable overrides instead.
+
 Simple config module for eslint, used by node services at Wikimedia.
 
 Used by:
