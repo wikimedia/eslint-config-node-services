@@ -2,8 +2,7 @@
 
 module.exports = {
     "env": {
-        "es6": true,
-        "node": true
+        "es6": true
     },
     "plugins": ["jsdoc", "json"],
     "rules": {
@@ -178,7 +177,10 @@ module.exports = {
             "globalReturn": true
         }
     },
-    "extends": "wikimedia",
+    "extends": [
+        "wikimedia",
+        "wikimedia/node"
+    ],
     "settings": {
         // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
         "jsdoc": {

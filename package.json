@@ -23,17 +23,16 @@
   },
   "homepage": "https://github.com/wikimedia/eslint-config-node-services#readme",
   "peerDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-wikimedia": "^0.7.2",
+    "eslint": "^5.9.0",
+    "eslint-config-wikimedia": "^0.10.1",
     "eslint-plugin-jsdoc": "^3.7.1",
     "eslint-plugin-json": "^1.2.1"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-wikimedia": "^0.7.2",
+    "eslint": "^5.9.0",
+    "eslint-config-wikimedia": "^0.10.1",
     "eslint-plugin-jsdoc": "^3.7.1",
     "eslint-plugin-json": "^1.2.1",
-    "eslint-plugin-qunit": "^3.3.1",
     "pre-commit": "^1.2.2"
   }
 }
